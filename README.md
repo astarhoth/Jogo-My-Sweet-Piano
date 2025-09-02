@@ -17,3 +17,7 @@ O conteúdo desse código foi inspirado em o seguinte vídeo:
 
 # Futuras mudanças:
 Acrescentar uma tela de início e um score, e pensar em algo pra complementar a tela
+
+# Como usar?
+
+Baixe os arquivos e rode o arquivo "index.html"
