@@ -3,15 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mario Jump</title>
+    <title>My Sweet Piano Run</title>
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="/imagens/icon.jpg">
 </head>
 <body>
     <div class="game-board">
         <img src="/imagens/clouds.png" alt="nuvens" class="clouds">
-        <img src="/imagens/piano.gif" alt="My Sweet Piano correndo" class="piano">
+        <img src="/imagens/start.gif" alt="My Sweet Piano" class="piano">
         <img src="/imagens/panqueca.png" alt="Panqueca" class="panqueca">
     </div>
+
+    <div class="coitainer-score">
+        <h2>Score: <span id="score">0</span></h2>
+    </div>
+    <div class="inicio">
+        <h1>My Sweet Piano Run</h1>
+        <button id="start-button">Iniciar Jogo</button>
+        <p>Pressione a barra de espaço para pular</p>
+    </div>
+    <div class="game-over">
+        <h1>Game Over!</h1>
+        <p>Você perdeu! Tente novamente.</p>
+        <!-- Aqui você pode colocar uma imagem ou score futuramente -->
+        <button id="reset-button">Reiniciar</button>
+    </div>
+    <div class="game-background">
+        <div class="ground">
+        <div class="ponto" style="left: 50px;"></div>
+        <div class="ponto" style="left: 150px;"></div>
+        <div class="ponto" style="left: 250px;"></div>
+        <div class="ponto" style="left: 350px;"></div>
+        </div>
+    </div>
+
 </body>
 <script src="/js/script.js"></script>
 </html>
