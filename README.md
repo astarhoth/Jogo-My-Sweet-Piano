@@ -21,7 +21,7 @@ O conteúdo desse código foi inspirado em o seguinte vídeo:
 
 # Notas da versão:
 
-## Versão 1.2.2
+## Versão 1.2.1
 
 Score
 Maior score
@@ -32,8 +32,7 @@ Decorações na parte vazia da tela
 Implementação de audios
 Correções no tamanho das imagens
 Icone 
-
-correção no bug do pulo
+Correção do bug do pulo
 
 # Futuras mudanças:
 

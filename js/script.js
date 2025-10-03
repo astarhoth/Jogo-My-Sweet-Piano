@@ -106,6 +106,7 @@ setInterval(() => {
 document.getElementById('reset-button').addEventListener('click', () => {
     score = 0;
     scoreElement.textContent = score;
+    gameOverPlayed = false;
 
 });
 // Incrementa a pontuação ao pular sobre a panqueca
